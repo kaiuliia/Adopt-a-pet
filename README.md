@@ -1,4 +1,4 @@
-Adopt Pet App
+Adopt Pet 
 
 ## Available Scripts
 

@@ -7,7 +7,7 @@
 
 .nav-links {
   padding: 12px 180px;
-  background: #56009b;
+  background: #00729b;
   color: white;
   list-style: none;
   display: flex;
@@ -24,7 +24,7 @@
 }
 
 .nav-link-active {
-  background: #320059;
+  background:  #014a65;;
 }
 
 .pet-type-label {
@@ -66,7 +66,7 @@
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color: #56009b;
+  color:  #00729b;
   margin: 40px 0 35px 0;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .button {
-  background: #56009b;
+  background:  #00729b;;
   color: white;
   font-size: 14px;
   border: none;
