@@ -12,7 +12,7 @@ function App() {
         <Navigation />
         <HomePage />
         <Routes>
-        
+          <Route path="animals/:type" element = {<HomePage />} > </Route>
         </Routes>
       </div>
     </BrowserRouter>
