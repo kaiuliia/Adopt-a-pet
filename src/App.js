@@ -12,7 +12,8 @@ function App() {
         <Navigation />
         <HomePage />
         <Routes>
-          <Route path="/:type?" element = {<HomePage />} > </Route>
+          <Route path="/:type?" element={<HomePage />} />
+       
         </Routes>
       </div>
     </BrowserRouter>
