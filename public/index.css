@@ -22,7 +22,9 @@
   padding: 6px 24px;
   font-size: 18px;
 }
-
+.active-classname {
+  color: red
+}
 .nav-link-active {
   background:  #012634;;
 }

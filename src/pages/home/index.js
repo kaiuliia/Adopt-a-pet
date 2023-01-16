@@ -3,7 +3,7 @@ import {  useParams,Link } from "react-router-dom";
 import { getPets } from '../../api/petfinder';
 import Hero from '../../components/hero';
 import Pet from '../../components/pet';
-import { BrowserRouter, Route, Routes, Router, Link } from "react-router-dom";
+
 
 const HomePage = () => {
   const [data, setData] = useState(null);
