@@ -28,10 +28,10 @@ const Navigation = () => {
           <NavLink
             to="/"
             className="nav-link"
-            activeClassName="active-classname"
+            activeClassName="nav-link-active"
           >
             {" "}
-             All Pets
+            All Pets
           </NavLink>
         </li>
         {petTypes
@@ -42,7 +42,7 @@ const Navigation = () => {
                   to={`/${type._links.self.href.split("/").pop()}`}
                   key={type.name}
                   className="nav-link"
-                  activeClassName="active-classname"
+                  activeClassName="nav-link-active"
                 >
                   {type.name}s
                 </NavLink>{" "}
