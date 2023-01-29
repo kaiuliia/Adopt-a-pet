@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {  useParams,Link } from "react-router-dom";
+import {  useParams, Link } from "react-router-dom";
 import { getPets } from '../../api/petfinder';
 import Hero from '../../components/hero';
 import Pet from '../../components/pet';
@@ -7,7 +7,7 @@ import Pet from '../../components/pet';
 
 const HomePage = () => {
   const [data, setData] = useState(null);
-  const {type} = useParams(); 
+  const { type } = useParams(); 
 
   useEffect(() => {
     async function getPetsData() {
