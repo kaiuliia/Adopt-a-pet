@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Search = () => {
-  let navigate = useNavigate();
+  const {navigate} = useNavigate();
+
 
   const searchInputRef = useRef();
 
