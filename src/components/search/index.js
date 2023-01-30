@@ -1,10 +1,8 @@
-import React, { useRef } from 'react';
-
-// import useHistory here.
+import React, { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Search = () => {
-
-  // get the history object here
+  let navigate = useNavigate();
 
   const searchInputRef = useRef();
 
@@ -12,10 +10,9 @@ const Search = () => {
     e.preventDefault();
 
     const searchQuery = new URLSearchParams({
-      name: searchInputRef.current.value
+      name: searchInputRef.current.value,
     }).toString();
-
-    // imperatively redirect with history.push()
+    navigate("/search/?" + searchQuery);
   };
 
   return (

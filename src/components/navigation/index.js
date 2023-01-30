@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { getPetTypes } from '../../api/petfinder';
-import Logo from '../../assets/logo.svg';
-import Search from '../search';
-import {  NavLink } from "react-router-dom";
-import  './navigation.css' 
+import React, { useEffect, useState } from "react";
+import { getPetTypes } from "../../api/petfinder";
+import Logo from "../../assets/logo.svg";
+import Search from "../search";
+import { NavLink } from "react-router-dom";
+import "./navigation.css";
 
 const Navigation = () => {
-    let activeStyle = {
-      background: '#013959',
-    };
+  let activeStyle = {
+    background: "#013959",
+  };
   const [petTypes, setPetTypes] = useState([]);
 
   useEffect(() => {
@@ -32,7 +32,6 @@ const Navigation = () => {
             exact
             to="/"
             className="nav-link"
-            activeClassName="nav-link-active"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             All Pets
@@ -41,12 +40,10 @@ const Navigation = () => {
         {petTypes
           ? petTypes.map((type) => (
               <li key={type.name}>
-                {/* These links should have an activeClassName prop */}
                 <NavLink
                   to={`/${type._links.self.href.split("/").pop()}`}
                   key={type.name}
                   className="nav-link"
-                  activeClassName="nav-link-active"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                 >
                   {type.name}
