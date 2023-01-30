@@ -5,7 +5,12 @@ import Pet from "../../components/pet";
 import { useLocation } from "react-router-dom";
 
 const SearchPage = () => {
-  const { search } = useLocation();
+  const { search }  = useLocation();
+
+
+
+
+
   const queryParams = useMemo(() => {
     return new URLSearchParams(search);
   }, [search]);
@@ -14,7 +19,7 @@ const SearchPage = () => {
 
   useEffect(() => {
     async function getPetsData() {
-      const petNameToFind = "REPLACE ME";
+      const petNameToFind = queryParams.get("name");
       const petsData = await getPets("", petNameToFind);
 
       setPets(petsData);
