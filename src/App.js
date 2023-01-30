@@ -9,18 +9,13 @@ function App() {
   return (
     <Router>
       <Navigation />
-  
-        <Routes>
-          {/* <HomePage /> */}
-          <Route path="/:type/:id" element={<PetDetailsPage />} />
-          <Route path="/:type?" element={<HomePage />} />
 
-          <Route
-            path="/pet-details-not-found"
-            element={<PetDetailsNotFound />}
-          />
-        </Routes>
-   
+      <Routes>
+        {/* <HomePage /> */}
+        <Route path="/:type/:id" element={<PetDetailsPage />} />
+        <Route path="/pet-details-not-found" element={<PetDetailsNotFound />} />
+        <Route path="/:type?" element={<HomePage />} />
+      </Routes>
     </Router>
   );
 }

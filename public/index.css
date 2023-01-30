@@ -1,31 +1,4 @@
-.nav-logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: white;
-}
 
-.nav-links {
-  padding: 12px 180px;
-  background: #00729b;
-  color: white;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  border-radius: 18px;
-  padding: 6px 24px;
-  font-size: 18px;
-}
-
-.nav-link-active {
-  background-color:  #004761;;
-}
 
 .pet-type-label {
   text-transform: capitalize;
