@@ -2,9 +2,7 @@ import React, { useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const Search = () => {
-  const {navigate} = useNavigate();
-
-
+  const navigate = useNavigate();
   const searchInputRef = useRef();
 
   const onSearchHandler = (e) => {
