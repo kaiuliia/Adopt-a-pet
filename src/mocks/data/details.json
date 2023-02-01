@@ -576,7 +576,7 @@
     },
     "environment": { "children": null, "dogs": true, "cats": true },
     "tags": [],
-    "name": "PINKIE",
+    "name": "Pinkie",
     "description": "COURTESY POST!  NOT WITH THIS RESCUE.  Please contact owner directly at martin.n.ross@gmail.com\n\nPinkie is a very pretty female Catahoula Leopard...",
     "organization_animal_id": null,
     "photos": [
@@ -954,7 +954,7 @@
     },
     "environment": { "children": true, "dogs": null, "cats": null },
     "tags": [],
-    "name": "Nani 47005794",
+    "name": "Nani",
     "description": "Meet Nani a 7 year old German Shepherd who came in as an owner surrender due to having a tumor...",
     "organization_animal_id": "47005794",
     "photos": [
@@ -1044,8 +1044,8 @@
       "Alert",
       "Interactive"
     ],
-    "name": "Reef A-2841",
-    "description": "Hi! I\u0026#039;m Reef! If you\u0026#039;re looking for someone to pour your heart into, please consider me.  I\u0026#039;m about 6 months...",
+    "name": "Reef",
+    "description": "Hi! I'm Reef! If you are looking for someone to pour your heart into, please consider me.  I'm about 6 months...",
     "organization_animal_id": null,
     "photos": [
       {
