@@ -1,6 +1,6 @@
 Adopt a Pet 
 
-Adopt a Pet it's an app, created usind react-router. 
+Adopt a Pet is an app, created using react-router. 
 You can choose a pet, easily switch between pages and search a pet by name.
 
 ## Available Scripts
