@@ -1,6 +1,8 @@
 Adopt Pet 
 
-Projects is still in progress
+Adopt a Pet it's an app, created usind react-router. 
+You can choose a pet, easily switch between pages and search a pet by name.
+
 ## Available Scripts
 
 In the project directory, you can run:
